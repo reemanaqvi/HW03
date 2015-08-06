@@ -83,20 +83,20 @@ def main():
     # print hypotenuse(3,4)
     # print hypotenuse(1.2,12)
     # # Exercise 3
-    # is_between(1,2,3)
-    # is_between(2,1,3)
-    # is_between(3,1,2)
-    # is_between(1,1,2)
+    # print is_between(1,2,3)
+    # print is_between(2,1,3)
+    # print is_between(3,1,2)
+    # print is_between(1,1,2)
     # # Exercise 6
-    # is_palindrome("Python")
-    # is_palindrome("evitative")
-    # is_palindrome("sememes")
-    # is_palindrome("oooooooooooo")
+    # print is_palindrome("Python")
+    # print is_palindrome("evitative")
+    # print is_palindrome("sememes")
+    # print is_palindrome("oooooooooooo")
     # # Exercise 7
-    # is_power(28,3)
-    # is_power(27,3)
-    # is_power(248832,12)
-    # is_power(248844,12)
+    # print is_power(28,3)
+    # print is_power(27,3)
+    # print is_power(248832,12)
+    # print is_power(248844,12)
 
 
 if __name__ == "__main__":
