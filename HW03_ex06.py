@@ -39,7 +39,11 @@ def hypotenuse (a, b):
 # Exercise 3
 # When you submit only include your final function: is_between
 
-
+def is_between  (x, y, z):
+    if x <= y <= z:
+        return True
+    else:
+        return False
 
 
 
@@ -47,7 +51,12 @@ def hypotenuse (a, b):
 # Exercise 6
 # When you submit only include your final function: is_palindrome
 
-
+def is_palindrome (word):
+    if len (word) <= 1:
+        return True
+    if first (word) != last (word):
+        return False
+    return is_palindrome (middle(word))
 
 
 
@@ -56,7 +65,9 @@ def hypotenuse (a, b):
 # When you submit only include your final function: is_power
 
 
-
+def is_power (a, b):
+    if (a%b == 0) and is_power (a/b, b):
+        return True    #got some online help but not getting this a 100%
 
 
 ################################################################################
